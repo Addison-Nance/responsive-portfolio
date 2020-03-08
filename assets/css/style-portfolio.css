@@ -2,6 +2,7 @@
     position:relative;
     display:inline-block;
     margin-left:22.5%;
+    margin-bottom:50px;
 }
 .mycontainer5text{
     position: absolute;
@@ -44,6 +45,7 @@ img {
         position:relative;
         display:inline-block;
         margin-left:22.5%;
+        margin-bottom:50px;
     }
 .mycontainer3text{
         position: absolute;
@@ -73,4 +75,44 @@ img {
     text-align:center;
     padding-top:5px;
     padding-bottom:5px;
+}
+
+@media only screen and (max-width:768px){
+    .mycontainer4{
+        display:block;
+        left:25%
+    }
+    .mycontainer4text{
+        width:200px;
+        display:block;
+        left:20.6%;
+
+    }
+    .mycontainer5{
+        display:block;
+        left:12.5%;
+    }
+    .mycontainer5text{
+        width:200px;
+        display:block;
+        left:24%;
+    }
+    .mycontainer3{
+        display:block;
+        left:12.5%
+    }
+    .mycontainer3text{
+        width:200px;
+        display:block;
+        left:24%;
+    }
+    .mycontainer2{
+        display:block;
+        left:25%
+    }
+    .mycontainer2text{
+        width:200px;
+        display:block;
+        left:20.6%;
+    }
 }

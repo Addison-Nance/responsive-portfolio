@@ -17,7 +17,7 @@
 
 .myname {
   color: #ffffff;
-  position: relative;
+  position: absolute;
   text-align:center;
   
 }
@@ -60,6 +60,7 @@
   margin-right:auto;
   border:1px solid #ffffff;
   border-radius:5px;
+  padding-left:10px;
 }
 
 h1 {
@@ -76,4 +77,38 @@ li{
 }
 .pagetitle{
   margin:10px;
+}
+
+@media only screen and (max-width:980px){
+  .bodybox1{
+    width:760px;
+    
+  }
+}
+
+@media only screen and (max-width:768px){
+  .bodybox1{
+    width:600px;
+    
+  }
+}
+
+@media only screen and (max-width:640px){
+  .myheader{
+    float:none;
+    width:100%;
+    padding-left:150px;
+    
+  }
+  ul{
+    float:left;
+    margin-top:15px;
+    margin-left:150px;
+  }
+  .container-fluid{
+    height:120px;
+  }
+ .bodybox1{
+    width:550px;
+ }
 }
